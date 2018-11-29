@@ -7,6 +7,6 @@ import com.henchir.entities.Users;
 interface UserRepository extends JpaRepository<Users, Long> {
 
 	Users findByName(String name);
-	
 	Users findBy(String name);
+	// azerty
 }
